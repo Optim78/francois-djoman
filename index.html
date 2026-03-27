@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional Portfolio - François Djoman Abeto | Sales Manager & Automotive Agency Director">
+    <meta property="og:title" content="François Djoman Abeto | Sales Manager">
+    <meta property="og:description" content="14+ years in automotive sales | Volkswagen | KGM | Audi | Nissan">
+    <meta property="og:type" content="website">
+    <title>François Djoman Abeto | Sales Manager</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- ======= NAVBAR ======= -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#hero" class="logo">
+                <span class="logo-first">François</span>
+                <span class="logo-last">Djoman</span>
+            </a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#hero"         class="nav-link" data-i18n="nav.home">Accueil</a></li>
+                <li><a href="#about"        class="nav-link" data-i18n="nav.about">À propos</a></li>
+                <li><a href="#expertise"    class="nav-link" data-i18n="nav.expertise">Expertise</a></li>
+                <li><a href="#journey"      class="nav-link" data-i18n="nav.journey">Parcours</a></li>
+                <li><a href="#achievements" class="nav-link" data-i18n="nav.achievements">Réalisations</a></li>
+                <li><a href="#gallery"      class="nav-link" data-i18n="nav.gallery">Galerie</a></li>
+                <li><a href="#contact"      class="nav-link" data-i18n="nav.contact">Contact</a></li>
+            </ul>
+
+            <div class="nav-right">
+                <!-- Dark mode toggle -->
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Mode nuit">
+                    <span class="theme-icon" id="themeIcon">🌙</span>
+                </button>
+                <!-- Language toggle -->
+                <button class="lang-toggle" id="langToggle" aria-label="Switch language">
+                    <span class="lang-flag">🇫🇷</span>
+                    <span class="lang-text" id="langText">FR</span>
+                </button>
+                <!-- Hamburger -->
+                <button class="hamburger" id="hamburger" aria-label="Menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ======= HERO ======= -->
+    <section id="hero" class="hero">
+        <!-- Animated particles -->
+        <div class="particles" id="particles"></div>
+
+        <div class="container hero-grid">
+            <!-- Left: Text -->
+            <div class="hero-text" data-aos="fade-right">
+                <p class="hero-tagline" data-i18n="hero.tagline">Sales Manager & Directeur d'Agence Automobile</p>
+                <h1 class="hero-title">
+                    <span data-i18n="hero.title1">L'expertise au service</span><br>
+                    <span class="gradient-text" data-i18n="hero.title2">de votre performance</span>
+                </h1>
+                <p class="hero-desc" data-i18n="hero.desc">
+                    14 ans d'excellence en vente automobile. Volkswagen, KGM, Audi, Nissan — des marques premium, un niveau d'exigence supérieur.
+                </p>
+                <div class="hero-brands">
+                    <span class="brand-badge">Volkswagen</span>
+                    <span class="brand-badge">KGM</span>
+                    <span class="brand-badge">Audi</span>
+                    <span class="brand-badge">Nissan</span>
+                </div>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary" data-i18n="hero.cta1">Me Contacter</a>
+                    <a href="#about"   class="btn btn-ghost"   data-i18n="hero.cta2">Découvrir</a>
+                </div>
+            </div>
+
+            <!-- Right: Photo -->
+            <div class="hero-image" data-aos="fade-left">
+                <div class="hero-img-frame">
+                    <img src="./images/hero.jpg" alt="François Djoman Abeto" class="hero-photo" loading="eager">
+                    <div class="hero-img-badge">
+                        <span class="badge-number">14+</span>
+                        <span class="badge-text" data-i18n="hero.badge">ans d'expérience</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scroll indicator -->
+        <div class="scroll-down">
+            <span class="scroll-dot"></span>
+        </div>
+    </section>
+
+    <!-- ======= ABOUT ======= -->
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label" data-i18n="about.label">À propos</span>
+                <h2 class="section-title" data-i18n="about.title">Un professionnel orienté résultats</h2>
+            </div>
+
+            <div class="about-grid">
+                <!-- Profile image block -->
+                <div class="about-visual" data-aos="fade-right">
+                    <div class="about-img-wrap">
+                        <img src="./images/francois-1.jpg" alt="François Djoman" class="about-img">
+                        <div class="about-img-deco"></div>
+                    </div>
+                    <div class="about-location">
+                        <span>📍</span>
+                        <span>Moncton, Nouveau-Brunswick, Canada</span>
+                    </div>
+                </div>
+
+                <!-- Text + stats -->
+                <div class="about-content" data-aos="fade-left">
+                    <p class="about-intro" data-i18n="about.intro">
+                        Responsable Commercial dynamique avec plus de 14 ans d'expérience en gestion des ventes automobiles, analyse financière et développement commercial.
+                    </p>
+                    <p data-i18n="about.body">
+                        Spécialiste de la prospection B2B, du pilotage de la performance commerciale et de la fidélisation client. Capable d'élaborer des stratégies efficaces pour augmenter le chiffre d'affaires et optimiser les performances de vente.
+                    </p>
+
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <div class="highlight-icon">📈</div>
+                            <span data-i18n="about.h1">Augmentation CA de +30%</span>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-icon">🚗</div>
+                            <span data-i18n="about.h2">400+ véhicules neufs vendus</span>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-icon">⭐</div>
+                            <span data-i18n="about.h3">100% satisfaction client</span>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-icon">🏆</div>
+                            <span data-i18n="about.h4">Meilleur vendeur 2024 en CI</span>
+                        </div>
+                    </div>
+
+                    <!-- Stats row -->
+                    <div class="stats-row">
+                        <div class="stat-item">
+                            <strong class="stat-num" data-count="14">0</strong>
+                            <span class="stat-plus">+</span>
+                            <p data-i18n="stat.exp">Années exp.</p>
+                        </div>
+                        <div class="stat-item">
+                            <strong class="stat-num" data-count="400">0</strong>
+                            <span class="stat-plus">+</span>
+                            <p data-i18n="stat.vehicles">Véhicules</p>
+                        </div>
+                        <div class="stat-item">
+                            <strong class="stat-num" data-count="100">0</strong>
+                            <span class="stat-plus">%</span>
+                            <p data-i18n="stat.satisfaction">Satisfaction</p>
+                        </div>
+                        <div class="stat-item">
+                            <strong class="stat-num" data-count="30">0</strong>
+                            <span class="stat-plus">%</span>
+                            <p data-i18n="stat.growth">Croissance CA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= EXPERTISE ======= -->
+    <section id="expertise" class="expertise section section-dark">
+        <div class="container">
+            <div class="section-header center">
+                <span class="section-label light" data-i18n="expertise.label">Domaines</span>
+                <h2 class="section-title light" data-i18n="expertise.title">Zones d'Expertise</h2>
+            </div>
+
+            <div class="expertise-grid">
+                <div class="expertise-card" data-aos="fade-up" data-aos-delay="0">
+                    <div class="exp-icon-wrap"><span class="exp-icon">📈</span></div>
+                    <h3 data-i18n="exp.c1.title">Stratégie Commerciale</h3>
+                    <p data-i18n="exp.c1.desc">Définition et mise en œuvre de stratégies de vente B2B orientées résultats mesurables.</p>
+                </div>
+                <div class="expertise-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="exp-icon-wrap"><span class="exp-icon">🎯</span></div>
+                    <h3 data-i18n="exp.c2.title">Management d'Équipe</h3>
+                    <p data-i18n="exp.c2.desc">Leadership, formation, motivation et pilotage des équipes commerciales.</p>
+                </div>
+                <div class="expertise-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="exp-icon-wrap"><span class="exp-icon">💰</span></div>
+                    <h3 data-i18n="exp.c3.title">Analyse Financière</h3>
+                    <p data-i18n="exp.c3.desc">Leasing automobile, analyse de crédit, gestion des risques financiers et reporting.</p>
+                </div>
+                <div class="expertise-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="exp-icon-wrap"><span class="exp-icon">🤝</span></div>
+                    <h3 data-i18n="exp.c4.title">Relation Client</h3>
+                    <p data-i18n="exp.c4.desc">Fidélisation client, gestion des grands comptes, résolution de problèmes complexes.</p>
+                </div>
+                <div class="expertise-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="exp-icon-wrap"><span class="exp-icon">🚗</span></div>
+                    <h3 data-i18n="exp.c5.title">Marques Premium</h3>
+                    <p data-i18n="exp.c5.desc">Volkswagen · KGM · Audi · Nissan — expertise technique et commerciale complète.</p>
+                </div>
+                <div class="expertise-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="exp-icon-wrap"><span class="exp-icon">📊</span></div>
+                    <h3 data-i18n="exp.c6.title">Pilotage KPI</h3>
+                    <p data-i18n="exp.c6.desc">Tableaux de bord, reporting commercial, optimisation continue de la rentabilité.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= JOURNEY (Timeline) ======= -->
+    <section id="journey" class="journey section">
+        <div class="container">
+            <div class="section-header center">
+                <span class="section-label" data-i18n="journey.label">Expérience</span>
+                <h2 class="section-title" data-i18n="journey.title">Parcours Professionnel</h2>
+            </div>
+
+            <div class="timeline">
+                <!-- Item 1 -->
+                <div class="tl-item" data-aos="fade-right">
+                    <div class="tl-dot"></div>
+                    <div class="tl-card current">
+                        <div class="tl-header">
+                            <div class="tl-date" data-i18n="tl.d1">01/2025 — Présent</div>
+                            <div class="tl-badge current-badge" data-i18n="tl.current">En poste</div>
+                        </div>
+                        <h3 data-i18n="tl.t1">Responsable Commercial</h3>
+                        <p class="tl-company">Volkswagen & KGM · Côte d'Ivoire</p>
+                        <p data-i18n="tl.p1">Positionnement stratégique des marques Volkswagen et KGM sur le marché ivoirien. Direction commerciale, développement des marchés et gestion des équipes.</p>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="tl-item right" data-aos="fade-left">
+                    <div class="tl-dot"></div>
+                    <div class="tl-card">
+                        <div class="tl-header">
+                            <div class="tl-date">01/2022 — 12/2024</div>
+                        </div>
+                        <h3 data-i18n="tl.t2">Sales Manager — Volkswagen</h3>
+                        <p class="tl-company">ATC Comafrique · Abidjan, CI</p>
+                        <p data-i18n="tl.p2">Développement de la marque Volkswagen en Côte d'Ivoire. Politique commerciale, stratégie de prospection, formation et gestion d'équipe.</p>
+                        <div class="tl-result">+30% chiffre d'affaires</div>
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="tl-item" data-aos="fade-right">
+                    <div class="tl-dot"></div>
+                    <div class="tl-card">
+                        <div class="tl-header">
+                            <div class="tl-date">2019 — 2022</div>
+                        </div>
+                        <h3 data-i18n="tl.t3">Senior Sales & Leasing Analyst</h3>
+                        <p class="tl-company">ATC Comafrique — Nissan · Audi · VW · Abidjan</p>
+                        <p data-i18n="tl.p3">Gestion du portefeuille clients stratégiques, appels d'offres internationaux (Ambassades, ONG, Ministères), analyse de crédit leasing.</p>
+                        <div class="tl-result">500+ véhicules vendus</div>
+                    </div>
+                </div>
+
+                <!-- Item 4 -->
+                <div class="tl-item right" data-aos="fade-left">
+                    <div class="tl-dot"></div>
+                    <div class="tl-card">
+                        <div class="tl-header">
+                            <div class="tl-date">2016 — 2019</div>
+                        </div>
+                        <h3 data-i18n="tl.t4">Manager / Analyste Crédit Senior</h3>
+                        <p class="tl-company">ADVANS Côte d'Ivoire · Duekoué</p>
+                        <p data-i18n="tl.p4">Gestion financière d'agence, stratégie de prospection, évaluation des collaborateurs et gestion des risques.</p>
+                        <div class="tl-result">0% risque portefeuille</div>
+                    </div>
+                </div>
+
+                <!-- Item 5 -->
+                <div class="tl-item" data-aos="fade-right">
+                    <div class="tl-dot"></div>
+                    <div class="tl-card">
+                        <div class="tl-header">
+                            <div class="tl-date">2016 — 2018</div>
+                        </div>
+                        <h3 data-i18n="tl.t5">Chargé de Clientèle / Analyste Crédit</h3>
+                        <p class="tl-company">Société Générale · Bouaké, CI</p>
+                        <p data-i18n="tl.p5">Interaction client, prospection de nouveaux clients, recommandations produits, création de comptes et suivi des transactions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= ACHIEVEMENTS ======= -->
+    <section id="achievements" class="achievements section section-accent">
+        <div class="container">
+            <div class="section-header center">
+                <span class="section-label light" data-i18n="ach.label">Performances</span>
+                <h2 class="section-title light" data-i18n="ach.title">Réalisations Commerciales</h2>
+            </div>
+
+            <div class="ach-grid">
+                <div class="ach-card" data-aos="zoom-in">
+                    <div class="ach-number">400<span>+</span></div>
+                    <p data-i18n="ach.a1">Véhicules neufs vendus</p>
+                </div>
+                <div class="ach-card highlight-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="ach-icon">🏆</div>
+                    <div class="ach-number ach-text-num" data-i18n="ach.a2title">Meilleur Vendeur</div>
+                    <p data-i18n="ach.a2">Segment Berline AB · Côte d'Ivoire 2024</p>
+                </div>
+                <div class="ach-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="ach-number">+30<span>%</span></div>
+                    <p data-i18n="ach.a3">Croissance du chiffre d'affaires</p>
+                </div>
+                <div class="ach-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="ach-number">100<span>%</span></div>
+                    <p data-i18n="ach.a4">Taux de satisfaction client</p>
+                </div>
+                <div class="ach-card" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="ach-number">0<span>%</span></div>
+                    <p data-i18n="ach.a5">Risque portefeuille maintenu</p>
+                </div>
+                <div class="ach-card" data-aos="zoom-in" data-aos-delay="500">
+                    <div class="ach-number">14<span>+</span></div>
+                    <p data-i18n="ach.a6">Années d'expertise automobile</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= GALLERY ======= -->
+    <section id="gallery" class="gallery section">
+        <div class="container">
+            <div class="section-header center">
+                <span class="section-label" data-i18n="gal.label">Portfolio Visuel</span>
+                <h2 class="section-title" data-i18n="gal.title">Galerie</h2>
+            </div>
+
+            <!-- Filter buttons -->
+            <div class="gal-filters">
+                <button class="gal-filter active" data-filter="all"     data-i18n="gal.all">Tout</button>
+                <button class="gal-filter"        data-filter="vehicles" data-i18n="gal.vehicles">Véhicules</button>
+                <button class="gal-filter"        data-filter="francois" data-i18n="gal.photos">Photos</button>
+            </div>
+
+            <div class="gallery-grid">
+                <!-- Vehicles -->
+                <div class="gal-item" data-cat="vehicles" data-aos="fade-up">
+                    <img src="./images/vw-tiguan.jpg" alt="Volkswagen Tiguan" loading="lazy">
+                    <div class="gal-overlay">
+                        <h3>Volkswagen Tiguan</h3>
+                        <p data-i18n="gal.suv">SUV Compact Premium</p>
+                    </div>
+                </div>
+                <div class="gal-item large" data-cat="vehicles" data-aos="fade-up" data-aos-delay="50">
+                    <img src="./images/kgm-rexton.jpg" alt="KGM Rexton" loading="lazy">
+                    <div class="gal-overlay">
+                        <h3>KGM Rexton</h3>
+                        <p data-i18n="gal.kgm">SUV Premium Coréen</p>
+                    </div>
+                </div>
+                <div class="gal-item" data-cat="vehicles" data-aos="fade-up" data-aos-delay="100">
+                    <img src="./images/audi-a6.jpg" alt="Audi A6" loading="lazy">
+                    <div class="gal-overlay">
+                        <h3>Audi A6</h3>
+                        <p data-i18n="gal.audi">Berline de Prestige</p>
+                    </div>
+                </div>
+                <div class="gal-item" data-cat="vehicles" data-aos="fade-up" data-aos-delay="150">
+                    <img src="./images/nissan-patrol.jpg" alt="Nissan Patrol" loading="lazy">
+                    <div class="gal-overlay">
+                        <h3>Nissan Patrol</h3>
+                        <p data-i18n="gal.nissan">SUV Légendaire 4x4</p>
+                    </div>
+                </div>
+                <div class="gal-item" data-cat="vehicles" data-aos="fade-up" data-aos-delay="200">
+                    <img src="./images/kgm-rexton2.jpg" alt="KGM Rexton K50" loading="lazy">
+                    <div class="gal-overlay">
+                        <h3>KGM Rexton K50</h3>
+                        <p>4x4 · 7 places · Premium</p>
+                    </div>
+                </div>
+                <div class="gal-item" data-cat="vehicles" data-aos="fade-up" data-aos-delay="250">
+                    <img src="./images/vw-suv.jpg" alt="Volkswagen SUV" loading="lazy">
+                    <div class="gal-overlay">
+                        <h3>Volkswagen SUV</h3>
+                        <p data-i18n="gal.vwsuv">Innovation & Performance</p>
+                    </div>
+                </div>
+
+                <!-- François photos -->
+                <div class="gal-item" data-cat="francois" data-aos="fade-up">
+                    <img src="./images/francois-1.jpg" alt="François — ATC Comafrique VW" loading="lazy">
+                    <div class="gal-overlay">
+                        <h3>ATC Comafrique</h3>
+                        <p data-i18n="gal.pro">Responsable Commercial VW</p>
+                    </div>
+                </div>
+                <div class="gal-item" data-cat="francois" data-aos="fade-up" data-aos-delay="50">
+                    <img src="./images/francois-2.jpg" alt="François — Showroom VW Tiguan" loading="lazy">
+                    <div class="gal-overlay">
+                        <h3>Showroom Volkswagen</h3>
+                        <p data-i18n="gal.showroom">Expert Tiguan</p>
+                    </div>
+                </div>
+                <div class="gal-item" data-cat="francois" data-aos="fade-up" data-aos-delay="100">
+                    <img src="./images/francois-3.jpg" alt="François — Nissan X-Trail" loading="lazy">
+                    <div class="gal-overlay">
+                        <h3>Nissan X-Trail</h3>
+                        <p data-i18n="gal.field">Terrain Automobile</p>
+                    </div>
+                </div>
+                <div class="gal-item" data-cat="francois" data-aos="fade-up" data-aos-delay="150">
+                    <img src="./images/francois-4.jpg" alt="François — Volkswagen Dealership" loading="lazy">
+                    <div class="gal-overlay">
+                        <h3>Volkswagen Dealer</h3>
+                        <p data-i18n="gal.dealer">New T-Roc Launch</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= SKILLS ======= -->
+    <section id="skills" class="skills section section-light">
+        <div class="container">
+            <div class="section-header center">
+                <span class="section-label" data-i18n="sk.label">Profil</span>
+                <h2 class="section-title" data-i18n="sk.title">Compétences Clés</h2>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-block" data-aos="fade-up">
+                    <div class="skill-block-icon">💼</div>
+                    <h3 data-i18n="sk.cat1">Management</h3>
+                    <div class="tags">
+                        <span data-i18n="sk.t1">Gestion d'équipe</span>
+                        <span data-i18n="sk.t2">Leadership</span>
+                        <span data-i18n="sk.t3">Motivation</span>
+                        <span data-i18n="sk.t4">Planification</span>
+                        <span data-i18n="sk.t5">Évaluation</span>
+                    </div>
+                </div>
+                <div class="skill-block" data-aos="fade-up" data-aos-delay="100">
+                    <div class="skill-block-icon">📊</div>
+                    <h3 data-i18n="sk.cat2">Commercial</h3>
+                    <div class="tags">
+                        <span data-i18n="sk.t6">Prospection B2B</span>
+                        <span data-i18n="sk.t7">Négociation</span>
+                        <span data-i18n="sk.t8">Stratégie de vente</span>
+                        <span data-i18n="sk.t9">Appels d'offres</span>
+                        <span data-i18n="sk.t10">Marketing</span>
+                    </div>
+                </div>
+                <div class="skill-block" data-aos="fade-up" data-aos-delay="200">
+                    <div class="skill-block-icon">💳</div>
+                    <h3 data-i18n="sk.cat3">Finance</h3>
+                    <div class="tags">
+                        <span data-i18n="sk.t11">Leasing automobile</span>
+                        <span data-i18n="sk.t12">Analyse crédit</span>
+                        <span data-i18n="sk.t13">Gestion des risques</span>
+                        <span data-i18n="sk.t14">Reporting financier</span>
+                    </div>
+                </div>
+                <div class="skill-block" data-aos="fade-up" data-aos-delay="300">
+                    <div class="skill-block-icon">🌍</div>
+                    <h3 data-i18n="sk.cat4">Langues & Outils</h3>
+                    <div class="tags">
+                        <span data-i18n="sk.t15">Français (Expert)</span>
+                        <span data-i18n="sk.t16">Anglais (Pro)</span>
+                        <span>Microsoft Office</span>
+                        <span data-i18n="sk.t17">Outils CRM</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Education -->
+            <div class="education" data-aos="fade-up">
+                <h3 class="edu-title" data-i18n="edu.title">Formation</h3>
+                <div class="edu-grid">
+                    <div class="edu-item">
+                        <div class="edu-year">2025</div>
+                        <div class="edu-content">
+                            <strong data-i18n="edu.e1">Certificat — Procédure et Vente Volkswagen</strong>
+                            <span>Volkswagen AG</span>
+                        </div>
+                    </div>
+                    <div class="edu-item">
+                        <div class="edu-year">2022</div>
+                        <div class="edu-content">
+                            <strong data-i18n="edu.e2">Certificat — Stratégie & Technique de Vente</strong>
+                            <span>Bruxelles, Belgique</span>
+                        </div>
+                    </div>
+                    <div class="edu-item">
+                        <div class="edu-year">2013</div>
+                        <div class="edu-content">
+                            <strong data-i18n="edu.e3">Maîtrise en Gestion d'Entreprise</strong>
+                            <span data-i18n="edu.e3sub">Université de Cocody, Abidjan (équiv. BAC+4 Canada)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= CONTACT ======= -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="section-header center">
+                <span class="section-label" data-i18n="ct.label">Contact</span>
+                <h2 class="section-title" data-i18n="ct.title">Travaillons Ensemble</h2>
+                <p class="section-sub" data-i18n="ct.sub">Disponible pour toute opportunité professionnelle.</p>
+            </div>
+
+            <div class="contact-grid">
+                <!-- Info cards -->
+                <div class="contact-cards">
+                    <!-- Canada phone -->
+                    <a href="tel:+14288805145" class="contact-card">
+                        <div class="cc-icon">📱</div>
+                        <div class="cc-content">
+                            <strong data-i18n="ct.phone.ca">🇨🇦 Canada</strong>
+                            <span>+1 428 880 5145</span>
+                        </div>
+                    </a>
+
+                    <!-- WhatsApp CI -->
+                    <a href="https://wa.me/2250709321736" target="_blank" rel="noopener" class="contact-card contact-card-wa">
+                        <div class="cc-icon">
+                            <svg class="wa-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.890-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                            </svg>
+                        </div>
+                        <div class="cc-content">
+                            <strong data-i18n="ct.whatsapp">🇨🇮 WhatsApp CI</strong>
+                            <span>+225 07 09 32 17 36</span>
+                        </div>
+                        <span class="wa-badge" data-i18n="ct.wa.open">Ouvrir</span>
+                    </a>
+
+                    <!-- Email -->
+                    <a href="mailto:djomanabetofrancois@gmail.com" class="contact-card">
+                        <div class="cc-icon">✉️</div>
+                        <div class="cc-content">
+                            <strong>Email</strong>
+                            <span>djomanabetofrancois@gmail.com</span>
+                        </div>
+                    </a>
+
+                    <!-- Location -->
+                    <div class="contact-card">
+                        <div class="cc-icon">📍</div>
+                        <div class="cc-content">
+                            <strong data-i18n="ct.location">Localisation</strong>
+                            <span>Moncton, NB — Canada</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Form -->
+                <form class="contact-form" id="contactForm" novalidate>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="fname" data-i18n="form.name">Votre nom</label>
+                            <input type="text" id="fname" placeholder="Jean Dupont" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="femail">Email</label>
+                            <input type="email" id="femail" placeholder="jean@example.com" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="fsubject" data-i18n="form.subject">Sujet</label>
+                        <input type="text" id="fsubject" placeholder="Opportunité professionnelle">
+                    </div>
+                    <div class="form-group">
+                        <label for="fmessage">Message</label>
+                        <textarea id="fmessage" rows="5" placeholder="Bonjour François..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+                        <span data-i18n="form.send">Envoyer le message</span>
+                    </button>
+                    <p class="form-success" id="formSuccess" data-i18n="form.success">Message envoyé ! Je vous répondrai rapidement.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= FOOTER ======= -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <p class="footer-name">François Djoman Abeto</p>
+                <p class="footer-role" data-i18n="footer.role">Sales Manager & Directeur d'Agence Automobile</p>
+            </div>
+            <div class="footer-links">
+                <a href="#hero"         data-i18n="nav.home">Accueil</a>
+                <a href="#about"        data-i18n="nav.about">À propos</a>
+                <a href="#gallery"      data-i18n="nav.gallery">Galerie</a>
+                <a href="#contact"      data-i18n="nav.contact">Contact</a>
+            </div>
+            <p class="footer-copy" data-i18n="footer.copy">© 2025 François Djoman Abeto. Tous droits réservés.</p>
+
+            <!-- Developer credit -->
+            <div class="footer-dev">
+                <p class="footer-dev-label" data-i18n="footer.dev.label">Site développé par</p>
+                <div class="footer-dev-info">
+                    <span class="footer-dev-name">Coulibaly Alassane</span>
+                    <span class="footer-dev-role">IT Support Specialist</span>
+                    <div class="footer-dev-contacts">
+                        <a href="https://wa.me/2250778627460" target="_blank" rel="noopener" class="footer-dev-link">
+                            <svg class="wa-icon-sm" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.890-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                            +225 07 78 62 74 60
+                        </a>
+                        <a href="mailto:alassanecool37@gmail.com" class="footer-dev-link">
+                            ✉ alassanecool37@gmail.com
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox overlay -->
+    <div class="lightbox" id="lightbox">
+        <button class="lb-close" id="lbClose">✕</button>
+        <img src="" alt="" id="lbImg" class="lb-img">
+        <p id="lbCaption" class="lb-caption"></p>
+    </div>
+
+    <!-- Back to top button -->
+    <button class="back-to-top" id="backToTop" aria-label="Retour en haut" title="Retour en haut">
+        ▲
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>

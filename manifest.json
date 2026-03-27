@@ -1,0 +1,52 @@
+{
+  "name": "Portfolio François Djoman Abeto",
+  "short_name": "François Portfolio",
+  "description": "Portfolio professionnel - Sales Manager & Directeur d'Agence Automobile",
+  "start_url": "/francois-portfolio/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1a3a52",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "./images/hero.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any"
+    },
+    {
+      "src": "./images/hero.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any"
+    }
+  ],
+  "categories": [
+    "business",
+    "automotive",
+    "sales"
+  ],
+  "screenshots": [
+    {
+      "src": "./images/hero.jpg",
+      "sizes": "540x720",
+      "type": "image/jpeg"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Contactez-moi",
+      "short_name": "Contact",
+      "description": "Envoyer un message à François",
+      "url": "/francois-portfolio/#contact",
+      "icons": []
+    },
+    {
+      "name": "À propos",
+      "short_name": "À propos",
+      "description": "Découvrir mon profil",
+      "url": "/francois-portfolio/#about",
+      "icons": []
+    }
+  ]
+}

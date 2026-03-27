@@ -1,0 +1,64 @@
+{
+  "name": "francois-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio professionnel - François Djoman Abeto | Sales Manager Automobile",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "npx http-server -p 8000",
+    "deploy": "git add . && git commit -m 'Update portfolio' && git push origin main"
+  },
+  "keywords": [
+    "portfolio",
+    "sales-manager",
+    "automobile",
+    "volkswagen",
+    "kgm",
+    "responsive"
+  ],
+  "author": "François Djoman Abeto",
+  "author-email": "djomanabetofrancois@gmail.com",
+  "author-phone": "+1 428 880 5145",
+  "license": "Personal Use",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/francois-portfolio.git"
+  },
+  "homepage": "https://username.github.io/francois-portfolio",
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 3 versions",
+    "not dead"
+  ],
+  "metadata": {
+    "created": "2025-03-27",
+    "updated": "2025-03-27",
+    "language": "fr",
+    "sections": [
+      "Hero",
+      "About",
+      "Expertise",
+      "Journey",
+      "Achievements",
+      "Gallery",
+      "Skills",
+      "Contact"
+    ],
+    "features": [
+      "Responsive Design",
+      "Smooth Scrolling",
+      "Contact Form",
+      "Image Gallery",
+      "Timeline",
+      "Animations",
+      "SEO Optimized",
+      "Performance Focused"
+    ]
+  }
+}
